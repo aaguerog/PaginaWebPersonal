@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 Swal.fire({
                     icon: 'success',
                     title: '¡Mensaje enviado!',
-                    text: 'Gracias por contactarme. Te responderé pronto.',
                     confirmButtonColor: '#006494'
                 });
                 form.reset();
