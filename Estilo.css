@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+
+header {
+  background-color: #006494;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  max-width: 900px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.perfil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+.foto-nombre,.ubicacion {
+  flex: 1;
+}
+
+.foto-nombre img {
+  width: 100%;
+  max-width: 375px;
+  border-radius: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: bold;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+.btn-enviar {
+  width: 150px;
+  align-self: center;
+  padding: 12px 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #006494;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 4px 0px #E8F1F2;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-enviar:hover {
+  background-color: #12709A;
+}
